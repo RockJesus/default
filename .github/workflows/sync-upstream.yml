@@ -13,7 +13,7 @@ jobs:
         with:
           repository: RockJesus/default
           ref: Add-RockJesus/ha-fordpass-cn
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.SYNC_PAT }}
           fetch-depth: 0
       - name: Merge upstream master
         run: |
